@@ -16,7 +16,7 @@ source ~/.venvs/aienv/bin/activate
 ### 2. Install requirements
 
 ```shell
-pip install -r cookbook/examples/research/requirements.txt
+pip install -r requirements.txt
 ```
 
 ### 3. Export `OPENAI_API_KEY` and `EXA_API_KEY`
@@ -29,5 +29,5 @@ export EXA_API_KEY=***
 ### 4. Run Streamlit App
 
 ```shell
-streamlit run cookbook/examples/research/app.py
+streamlit run app.py
 ```
